@@ -1,0 +1,66 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin-top: 250px;
+    margin-left: 50px;
+    
+
+}
+.one-1{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+margin-left:500px ;
+margin-top: -280px;
+   
+}
+.one-2{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+margin-left:500px ;
+   
+}
+.two-1{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+margin-left:500px ;
+   
+}
+.two-2{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+margin-left:500px ;
+   
+}
+.three-1{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+margin-left:500px ;
+   
+}
+.three-2{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+margin-left:500px ;
+   
+}
+
+.header{
+    animation-name: move;
+    animation-duration: 15s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes move{
+    0%{: 0px;}
+    100%{margin-right:50px ;}
+}
